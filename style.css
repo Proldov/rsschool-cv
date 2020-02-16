@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: 58px;
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 37px;
+    color: white;
+    margin: 10px 0 20px 0;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 600;
+    color: white;
+    margin: 50px 0 20px 0;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+body {
+    background-color: #20202D;
+}
+
+.container {
+    width: 945px;
+    margin: auto;
+    max-width: 1024px;
+        
+}
+
+.logo {
+    padding: 10px 0; 
+    margin: 20px 0 100px 0;
+}
+.logo img {
+    height: 40px;
+    
+}
+
+.hero_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero_avatar {
+    width: 389px;
+    height: 389px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 14px solid #fff;
+    background-image: url(../img/avatar.jpg);
+    background-position: right 67% top 52%;
+    background-repeat: no-repeat;
+}
+
+.info {
+   margin: 100px 0 0 0;
+   height: 250px;
+}
+
+.info li {
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.summary {
+    height: 230px;
+    margin: 80px 0 100px 0;
+}
+
+.summary_text p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 38px;   
+}
+
+.skills li {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;  
+}
+
+.education {
+    margin-bottom: 100px;
+}
+
+.education p {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    line-height: 30px;  
+}
+
